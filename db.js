@@ -8,7 +8,7 @@ var mysql = require('mysql');
  // port: 3306
 //});
 
-var connection = mysql.createConnection({host: "cloudmentprod.mysql.database.azure.com", user: "Cloudmentprod", password: "Passw0rd", database: "upskill", port: 3306});
+var connection = mysql.createConnection({host: "cloudmentprod.mysql.database.azure.com", user: "Cloudment@cloudmentprod", password: "Passw0rd", database: "upskill", port: 3306});
 
 
 connection.connect(function (err) {
